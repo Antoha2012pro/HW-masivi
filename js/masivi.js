@@ -80,4 +80,6 @@ console.log(cards);
 const cardToInsert = cards.push('Карточка-6');
 console.log(cards);
 // 5. Оновити
-console.log(`я не розумію як мені це оновити`);
+const cardToUpdate = cards.splice(2, 1, "оновлення");
+console.log(cards);
+
